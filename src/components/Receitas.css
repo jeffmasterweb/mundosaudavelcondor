@@ -1,0 +1,11 @@
+.receita-inverno {
+    width: 300px;
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .receita-inverno {
+      height: 500px;
+    }
+  }

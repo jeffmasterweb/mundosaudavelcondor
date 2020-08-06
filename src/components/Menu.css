@@ -1,0 +1,44 @@
+.App-nav {
+    background-color: green;
+    font-size: 18px;
+    font-family: 'Arial';
+    text-transform: uppercase;
+    font-weight: 300;
+    flex-wrap: wrap;
+  }
+
+
+  .App-fundo {
+    position: fixed;
+    z-index: -1;
+    display: flex;
+    width: 100%;
+  }
+
+
+  /* Configuração de cores da Navbar START*/
+
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin: 0 10px;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background-color:; 
+    box-shadow: 4px 4px 1px #ffae00;
+  }
+
+  .navbar-brand {
+    margin-right: 20px;
+  }
+
+  /* Configuração de cores da Navbar END*/
+
+
+  @media screen and (max-width: 1464px) {
+    .App-fundo {
+      position: fixed;
+      width: 2000px;
+    }
+  }
