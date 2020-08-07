@@ -11,7 +11,7 @@ export class Menu extends Component {
             <div>
                 <Navbar className="App-nav" expand="lg">
     <Navbar.Brand href="#home" className="App-logo">
-      <img src={Logo} alt="logo" style={{ width:'150px' }}/>
+      <img src={Logo} alt="logo" style={{ width:'120px' }}/>
     </Navbar.Brand>
   < Navbar.Toggle aria-controls="basic-navbar-nav"/>
   <Navbar.Collapse id="basic-navbar-nav">

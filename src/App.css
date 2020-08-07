@@ -7,3 +7,18 @@
 .App {
   text-align: center;
 }
+
+
+.App-fundo {
+  position: fixed;
+  z-index: -1;
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 1464px) {
+  .App-fundo {
+    position: fixed;
+    width: 2000px;
+  }
+}

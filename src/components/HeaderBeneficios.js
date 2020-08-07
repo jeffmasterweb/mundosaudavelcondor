@@ -17,21 +17,21 @@ export default class HeaderBeneficios extends Component {
     render() {
         return (
             <div>
+                
+                <Container>
                 <Row className="Header-row">
 
                     <Col lg>
-                <img src={Logo} style={{ width:'500px', marginTop:'50px' }} />
+                <img src={Logo} style={{ width:'80%', marginTop:'50px' }} />
                     </Col>
 
                 </Row>
-
-                <Container>
 
                 <Row>
 
                     <Col>
                     <h1 style={{ color:'#af6438cb', marginTop:'50px' }}>Produtos de Qualidade de uma visa mais saudável.</h1>
-                    <img src={textdecor} style={{  }} />
+                    <img src={textdecor} style={{ width:"50%" }} />
                     <h2 style={{ color:'green' }}>Clique nos pontos para ver os benefícios de uma alimentação saudável</h2>
 
                     <di style={{ position:'relative' }} >
@@ -55,7 +55,7 @@ export default class HeaderBeneficios extends Component {
                     </Col>
                     
                     <Col>
-                    <img src={leticia} style={{ width:'400px', marginTop:'50px' }} />
+                    <img src={leticia} style={{ width:'80%', marginTop:'50px' }} />
   
                     </Col>
 
