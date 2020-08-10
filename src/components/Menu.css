@@ -11,7 +11,7 @@
 
   .navbar-light .navbar-nav .nav-link {
     color: white;
-    margin: 0 10px;
+    margin: 0 15px;
     transition: 400ms ease-in;
   }
 
@@ -23,6 +23,18 @@
   .navbar-brand {
     margin-right: 20px;
     margin-left: 25%;
+  }
+
+  .collapsed {
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+
+  .navbar-toggler {
+    border: none;
   }
 
   /* Configuração de cores da Navbar END*/

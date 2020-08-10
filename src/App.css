@@ -1,7 +1,7 @@
 
 :root{
   --main-color:green;
-  --second-color:#af6438cb;
+  --second-color:#af6438;
 }
 
 .App {
@@ -9,16 +9,16 @@
 }
 
 
-.App-fundo {
+/* .App-fundo {
   position: fixed;
   z-index: -1;
   display: flex;
-  width: 100%;
+  width: 140%;
 }
 
-@media screen and (max-width: 1464px) {
+@media screen and (max-width: 1587px) {
   .App-fundo {
     position: fixed;
     width: 2000px;
   }
-}
+} */
