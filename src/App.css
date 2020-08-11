@@ -9,6 +9,29 @@
 }
 
 
+@font-face {
+  font-family: 'Geller Headline';
+  src: local('GellerHeadline.otf'), url('./fontes/fontsweb/GellerHeadline-Black.otf'), format('otf');
+}
+
+@font-face {
+  font-family: 'Geller Headline';
+  font-style: bold;
+  /* font-weight: ; */
+  src: url('./fontes/fontsweb/GellerHeadline-Black.otf'); /* IE9 Compat Modes */
+  src: local('Geller Headline'), local('GellerHeadline'),
+       url('./fontes/fontsweb/GellerHeadline-Black.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fontes/fontsweb/GellerHeadline-Black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fontes/fontsweb/GellerHeadline-Black.woff') format('woff'), /* Modern Browsers */
+       url('./fontes/fontsweb/GellerHeadline-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fontes/fontsweb/GellerHeadline-Black.svg') format('svg'); /* Legacy iOS */
+}
+body {
+  font-family: 'Geller Headline';
+}
+
+
+
 /* .App-fundo {
   position: fixed;
   z-index: -1;

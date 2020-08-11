@@ -21,10 +21,10 @@ export default class Footer extends Component {
 
                         <div className="footer-redessociais">
                             <ul>
-                                <a href="https://www.facebook.com/RedeCondor/" ><li><FaFacebook color="white" size="30px"/></li></a>
-                                <a href="https://www.instagram.com/redecondor/"><li><FaInstagram color="white" size="30px"/></li></a>
-                                <a href="https://twitter.com/RedeCondor"><li><FaTwitter color="white" size="30px"/></li></a>
-                                <a href="https://www.youtube.com/user/redecondor"><li><FaYoutube color="white" size="30px"/></li></a>
+                                <a href="https://www.facebook.com/RedeCondor/" ><li><FaFacebook color="white" size="25px"/></li></a>
+                                <a href="https://www.instagram.com/redecondor/"><li><FaInstagram color="white" size="25px"/></li></a>
+                                <a href="https://twitter.com/RedeCondor"><li><FaTwitter color="white" size="25px"/></li></a>
+                                <a href="https://www.youtube.com/user/redecondor"><li><FaYoutube color="white" size="25px"/></li></a>
                             </ul>
                         </div>
             </div> 

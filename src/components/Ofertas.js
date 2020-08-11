@@ -7,7 +7,10 @@ const styles = {
     containerReceitasBg: {
         backgroundImage: `url(${bg3})`,
         backgroundSize: 'cover',
-        height:'1000px'
+        height:'1000px',
+        '@media (maxWidth: 456px)': {
+            height:'1000px'
+          }
     }
 }; 
 
@@ -18,7 +21,7 @@ export default class Ofertas extends Component {
                 <div style={styles.containerReceitasBg}>
                     <h1 className="oferta-titulo" >Ofertas para uma vida mais saudável</h1>
                     <input type="search" placeholder="O que você está procurando?" style={{ width:'70%',
-                    borderRadius:'8px', boxShadow:'3px 3px 6px', border:"none", padding: '5px 20px' }} /> 
+                    borderRadius:'8px', boxShadow:'3px 3px 6px', border:"none", padding: '5px 15px' }} /> 
 
                     <div>
                     <span></span><button className="oferta-button">Compre online</button> 

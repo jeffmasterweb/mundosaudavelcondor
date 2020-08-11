@@ -9,7 +9,7 @@ const styles = {
     containerReceitasBgPapel: {
         backgroundImage: `url(${bg})`,
         backgroundSize: 'cover',
-        height:'400px'
+        height:'530px'
     }
 };
 
