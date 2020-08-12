@@ -81,6 +81,12 @@
     margin-top:180px;
   }
 
+  @media screen and (max-width: 1199px) {
+    .box-header {
+      margin-bottom:150px;
+    }
+  } 
+
   @media screen and (max-width: 991px) {
     .box-header {
       padding: 30px 30px 30px 30px;
@@ -88,4 +94,10 @@
     }
   } 
 
+  
+  @media screen and (max-width: 991px) {
+    .morango2 {
+      visibility: ;
+    }
+  } 
 
