@@ -30,6 +30,16 @@ body {
   font-family: 'Geller Headline';
 }
 
+.limao {
+  display: flex;
+  background-position-x: 400px;
+  z-index: 0;
+  position: absolute;
+  width: 240px;
+  left: -60px;
+  top: 1470px;
+}
+
 
 
 /* .App-fundo {

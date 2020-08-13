@@ -34,12 +34,12 @@ const styles = {
         backgroundSize:'70%'
     },
 
-    containerHeaderMorando2: {
+    containerHeaderMorango2: {
         backgroundImage: `url(${obj2})`,
         backgroundRepeat: 'no-repeat',
         backgroundPositionX: '-85px',
         backgroundPositionY: '-30px',
-        backgroundSize:'230px'
+        backgroundSize:'230px',
     },
 
     containerHeaderCereais: {
@@ -74,7 +74,7 @@ export default class HeaderBeneficios extends Component {
                 
                 <div style={styles.containerHeaderBgLeticia}>
 
-                    <div className="morango2" style={styles.containerHeaderMorando2}>
+                    <div className="morango2" style={styles.containerHeaderMorango2}>
 
                         <div style={styles.containerHeaderCereais}>
 
@@ -91,14 +91,17 @@ export default class HeaderBeneficios extends Component {
 
                                     </Row>
 
-                                    <Row>
+                                    <Row id="troca">
 
                                         <Col lg={6} style={{ padding:'0px'}}>
-                                        <h1 style={{ color:'#af6438', marginTop:'50px', fontFamily:'Geller Headline', padding:'15px' }}>Produtos de Qualidade de uma visa mais saudável.</h1>
+                                        <h1 style={{ color:'#af6438', marginTop:'50px', fontFamily:'Geller Headline', padding:'15px' }}>Produtos de Qualidade de uma vida mais saudável.</h1>
                                         <img src={textdecor} style={{ width:"50%" }} />
                                         <h2 style={{ color:'green', fontFamily:'Geller Headline', fontSize:'1.5rem', padding:'15px' }}>Clique nos pontos para ver os benefícios de uma alimentação saudável</h2>
 
+
+                                            <img src={leticia} className="leticia1" />
                                             
+
                                         <div>
 
                                             <div className="foto-circulo" >

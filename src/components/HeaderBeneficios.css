@@ -64,12 +64,30 @@
       width: 87%;
     }
   }
+
+
+  .leticia1 {
+    display: none;
+  }
+
   
   @media screen and (max-width: 991px) {
     .leticia {
-      width: 45%;
+      display: none;
     }
   } 
+
+
+  @media screen and (max-width: 991px) {
+    .leticia1 {
+      display: inline;
+      width: 45%;
+      margin: 0;
+      padding: 0;
+      margin-top: 12px;
+      margin-bottom: -30px;
+    }
+  }
 
 .box-header {
     background-color: #af6438;
@@ -95,9 +113,5 @@
   } 
 
   
-  @media screen and (max-width: 991px) {
-    .morango2 {
-      visibility: ;
-    }
-  } 
+
 

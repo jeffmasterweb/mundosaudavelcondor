@@ -9,17 +9,27 @@ import Receitas2 from './components/Receitas2';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
 
+import obj4 from './assets/obj4.png'
+
 function App() {
   return (
     <div className="App">
-          <Menu/>
-          <HeaderBeneficios/>
-          <Receitas/>
-          <Receitas2/>
-          <Ofertas/>
-          <Blog/>
-          <Footer/> 
-    </div>
+
+        
+            <img src={obj4} alt="" className="limao" />  
+
+            <Menu/>
+            <HeaderBeneficios/>
+            <Receitas/>
+            <Receitas2/>
+            <Ofertas/>
+            <Blog/>
+            <Footer/>
+
+        
+
+    </div> 
+    
   );
 }
 
