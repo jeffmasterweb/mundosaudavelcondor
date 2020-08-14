@@ -9,10 +9,8 @@ import textdecor2 from '../assets/text_decor2.png'
 import leticia from '../assets/leticia.png'
 import bgl from '../assets/bg_leticia.png'
 import img1 from '../assets/img1.png'
-import obj2 from '../assets/obj2.png'
 import obj1 from '../assets/obj1.png'
 import obj5 from '../assets/obj5.png'
-import obj3 from '../assets/obj3.png'
 
 import { Container } from 'react-bootstrap'
 
@@ -31,15 +29,10 @@ const styles = {
         backgroundPosition: 'bottom',
         backgroundPositionX: '150%',
         backgroundPositionY: '600px',
-        backgroundSize:'70%'
-    },
-
-    containerHeaderMorango2: {
-        backgroundImage: `url(${obj2})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundPositionX: '-85px',
-        backgroundPositionY: '-30px',
-        backgroundSize:'230px',
+        backgroundSize:'70%',
+        @media(max-width: 991px): {
+            backgroundSize:'200%'
+        }
     },
 
     containerHeaderCereais: {
@@ -56,14 +49,6 @@ const styles = {
         backgroundPositionX: '-45px',
         backgroundPositionY: '840px',
         backgroundSize:'110px'        
-    },
-
-    containerReceitasLaranja: {
-        backgroundImage: `url(${obj3})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundPositionX: '105%',
-        backgroundPositionY: '1200px',
-        backgroundSize:'23%'
     }
 };
 
@@ -74,15 +59,12 @@ export default class HeaderBeneficios extends Component {
                 
                 <div style={styles.containerHeaderBgLeticia}>
 
-                    <div className="morango2" style={styles.containerHeaderMorango2}>
-
                         <div style={styles.containerHeaderCereais}>
 
                             <div style={styles.containerHeaderMorango5}>
 
-                                <div style={styles.containerReceitasLaranja}>
 
-                                    <Container>
+                                    <Container fluid="lg">
                                     <Row>
 
                                         <Col lg>
@@ -94,9 +76,9 @@ export default class HeaderBeneficios extends Component {
                                     <Row id="troca">
 
                                         <Col lg={6} style={{ padding:'0px'}}>
-                                        <h1 style={{ color:'#af6438', marginTop:'50px', fontFamily:'Geller Headline', padding:'15px' }}>Produtos de Qualidade de uma vida mais saudável.</h1>
+                                        <h1 className="produtosqualidade">Produtos de Qualidade de uma vida mais saudável.</h1>
                                         <img src={textdecor} style={{ width:"50%" }} />
-                                        <h2 style={{ color:'green', fontFamily:'Geller Headline', fontSize:'1.5rem', padding:'15px' }}>Clique nos pontos para ver os benefícios de uma alimentação saudável</h2>
+                                        <h2 className="cliquepontos">Clique nos pontos para ver os benefícios de uma alimentação saudável</h2>
 
 
                                             <img src={leticia} className="leticia1" />
@@ -110,7 +92,7 @@ export default class HeaderBeneficios extends Component {
 
                                             <div className="box-header" >
 
-                                                <h3 style={{ fontFamily:'Geller Headline', fontSize:'2.5rem' }}>Aumenta a energia</h3>
+                                                <h3 className="aumentaenergia">Aumenta a energia</h3>
                                                 <img src={textdecor2} style={{ width:'50%', padding:'15px 15px 40px 15px', color:'white' }} />
                                                 <p>is simply dummy text of the printing and typesetting 
                                                 industry. Lorem Ipsum has been the industry's standard 
@@ -132,15 +114,10 @@ export default class HeaderBeneficios extends Component {
                                     </Row>
                                     </Container>
 
-                                    
-
-                                </div>
 
                             </div>
 
                         </div>
-
-                    </div>
 
                 </div>
                 

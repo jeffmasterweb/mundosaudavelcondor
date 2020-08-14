@@ -17,7 +17,7 @@ export default class Receitas extends Component {
         return (
             <div style={styles.containerReceitasBg}>
 
-                    <Container>
+                    <Container fluid="lg">
                     <Row>
 
                         <Col lg={6} style={{ padding:'0px'}}>
